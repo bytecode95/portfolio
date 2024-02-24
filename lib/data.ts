@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ecommerce1Img from "@/public/images/ecommerce1.png";
+import ecommerce2Img from "@/public/images/ecommerce2.png";
+import weatherappImg from "@/public/images/weatherapp.png";
 
 export const links = [
   {
@@ -35,52 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduation",
+    location: "Colombo, SL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated in Bsc Engineering . After Graduation started self studying in java programming while working.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineering Trainee Program",
+    location: "Colombo, SL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I joined as a student trainee for 6 months in ACPT Academy and started learning full stack web development.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer",
+    location: "Colombo, SL",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MySQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-commerce app development",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Designed responsive frontend UI. Integrated user authentication & authorization login/logout functionality.",
+    tags: ["React", "MUI", "MySQL"],
+    imageUrl: ecommerce1Img,
   },
   {
-    title: "rmtDev",
+    title: "Admin dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Developed responsive  frontend offering real-time insights into order details and product statistics",
+    tags: ["React", "TypeScript", "MySQL", "Tailwind"],
+    imageUrl: ecommerce2Img,
   },
   {
-    title: "Word Analytics",
+    title: "Real time weather app",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web app for displaying current weather conditions. It shows Show a 5-day weather forecast, Search for weather information by city name.",
+    tags: ["React", "Tailwind", "Framer"],
+    imageUrl: weatherappImg,
   },
 ] as const;
 
@@ -97,11 +97,8 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
+  "Machine Learning"
 ] as const;
