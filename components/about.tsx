@@ -19,29 +19,26 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Engineering</span>, I decided to pursue my
-        passion for programming. I started self studying java programming joined in training program and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        <span className="font-medium">Results-driven Software Engineer</span>{" "}
+        with over 2 years of experience in building scalable, user-centric web
+        applications using React.js, Next.js, and TypeScript, complemented by
+        backend experience in NestJS. Adept at leading frontend architecture,
+        implementing responsive UI/UX with Tailwind CSS, and optimizing
+        performance in large-scale CRM and real-time communication platforms.
+        Strong problem-solver with a track record of delivering high-quality,
+        maintainable code in agile environments. Passionate about clean code,
+        component reusability, and creating seamless user experiences through
+        modern web technologies. After graduating with a degree in My core stack
         is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MySQL
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        engineer.
+        <span className="font-medium">React, Next.js, Node.js, and MySQL</span>.
+        I am also familiar with Backend Development with Nest Js.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         watching movies, reading books and playing with my cats. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">system design</span>. I'm 
+        learning about <span className="font-medium">system design</span>. I'm
         currently building Financial Portfolio Management(ML Project).
       </p>
     </motion.section>

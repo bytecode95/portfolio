@@ -43,21 +43,29 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Software Engineering Trainee Program",
-    location: "Colombo, SL",
-    description:
-      "I joined as a student trainee for 6 months in ACPT Academy and started learning full stack web development.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
-  {
     title: "Software Engineer",
     location: "Colombo, SL",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MySQL. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind & Backend Development with Express Js",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 Jan to 2023-June",
   },
+  {
+    title: "Full Stack Engineer",
+    location: "Colombo, SL",
+    description:
+      "Led the development of a healthcare recruitment platform with advanced candidate search, job management, and client dashboards. Built scalable UI with React, Next.js, TypeScript, and Tailwind CSS, and handled backend integrations with Express.js and PHP. Delivered a complete automated platform with blog system, CRM, and SEO optimization.",
+    icon: React.createElement(FaReact),
+    date: "2023 June to 2024 November",
+  },
+  {
+    title: "Software Engineer – SA Venture",
+    location: "Colombo, SL",
+    description:
+      "Contributing to the design and development of scalable web applications and admin portals. Involved in UI/UX discussions, code reviews, and feature implementation using React, Next.js, TypeScript, and Tailwind CSS. Collaborating closely with cross-functional teams to deliver robust solutions with API integrations and state management best practices.",
+    icon: React.createElement(FaReact),
+    date: "2024 November to present",
+  }
 ] as const;
 
 export const projectsData = [
@@ -92,12 +100,14 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Socket.io",
   "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
   "Express",
+  "Nest Js",
   "Python",
   "Framer Motion",
   "Machine Learning"

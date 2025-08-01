@@ -11,7 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Chethana | Personal Portfolio",
-  description: "Chethana is a full-stack developer with 1 year of experience. I specialize in crafting robust and dynamic web applications from front-end to back-end. With a passion for clean code and seamless user experiences, I thrive in bringing ideas to life through innovative technologies and agile development methodologies. Explore my projects to witness the fusion of creativity and technical expertise, demonstrating my proficiency in both client-side and server-side development. Let's build the future of the web together, one line of code at a time.",
+  description:
+    "Chethana is a full-stack developer with over 2 year of experience. I specialize in crafting robust and dynamic web applications from front-end to back-end. With a passion for clean code and seamless user experiences, I thrive in bringing ideas to life through innovative technologies and agile development methodologies. Explore my projects to witness the fusion of creativity and technical expertise, demonstrating my proficiency in both client-side and server-side development. Let's build the future of the web together, one line of code at a time.",
 };
 
 export default function RootLayout({
